@@ -1,9 +1,12 @@
+import TVShow from '../TVShow/TVShow';
 import './TVShowList.css';
 
-function TVShowList() {
+function TVShowList( {shows} ) {
     return(
-        <div>
-
+        <div className="tvshows">
+            {
+                shows.map((show, index) => <TVShow key={index} tvshow={show} />)
+            }
         </div>
     )
 }

@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Docs from './components/Docs/Docs';
-
+import TVShowDetail from './components/TVShowDetail/TVShowDetail';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Docs/>} exact/>
+          <Route path="/tv-show-details/:id" element={<TVShowDetail/>} />
           <Route path="/browse" element={<SearchBar/>} exact/>
         </Routes>
       </Router>

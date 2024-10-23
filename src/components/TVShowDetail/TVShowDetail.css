@@ -1,0 +1,51 @@
+.tvshow-detail .upper{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+
+.tvshow-detail .middle{
+    height: 500px;
+    background-color: white;
+    width: 100%;
+}
+
+.tvshow-detail .bottom{
+    background-color: aliceblue;
+    width: 100%;
+    clear: both;
+}
+
+.tvshow-detail .middle img{
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.tvshow-detail .middle .left{
+    height: 500px;
+    width: 40%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.tvshow-detail .middle .right{
+    height: 500px;
+    width: 60%;
+    float: right; 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 400%;
+}
+
+h2{
+    text-align: center;
+    font-size: 250%;
+}
